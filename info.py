@@ -7,10 +7,10 @@
 import os
 from os import environ
 
-API_ID       = int(environ.get("API_ID", ""))
-API_HASH     = environ.get("API_HASH", "")
+API_ID       = int(environ.get("API_ID", "28891870"))
+API_HASH     = environ.get("API_HASH", "ffc3794690bf254d2867ac58fd293a60")
 BOT_TOKEN    = environ.get("BOT_TOKEN", "")
-DATABASE_URI = environ.get("DATABASE_URI", "")
-LOG_CHANNEL  = int(environ.get("LOG_CHANNEL", ""))
+DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://sakshamranjan7:8wBCaYilCTlgdNV3@cluster0.h184m7m.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+LOG_CHANNEL  = int(environ.get("LOG_CHANNEL", "-1002659515511"))
 ADMIN        = int(environ.get("ADMIN", "7660990923"))
 CHANNEL      = environ.get("CHANNEL", "@SECRECT_BOT_UPDATES")
